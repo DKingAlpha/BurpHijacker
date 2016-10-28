@@ -5,8 +5,8 @@
 
 #Before you run:
     Complete the functions of Hijacking
-    HijackRequestHeader(Header)
-    
+    => lib/injector.py
+    common usages/samples have been commented.    
     
 #How to setup:
 
