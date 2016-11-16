@@ -3,9 +3,9 @@ from urllib import quote,unquote, urlencode
 from base64 import b64encode as base64encode, b64decode as base64decode
 import random
 
-#args is Dict, supposed of Config.conf
+#args is Dict
 
-#Match the packets which youd like to modify.
+#Judge whether a package is the target that youd like to modify.
 def request_match(header,post,args):
     for i in header:
         if i.startswith(args['FLAG']):
